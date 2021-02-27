@@ -3,12 +3,16 @@
 ## Setup
 
 To run frontend:
+
 `cd frontend`
+
 `./gradlew run`
 
 
 To run backend:
+
 `cd backend`
+
 `./gradlew run`
 
 
@@ -67,22 +71,36 @@ The controller run method does the following:
 Ktor is used as the backend server framework.
 
  When user creates a room:
+
     -  the `CREATE room_id` message is fired from frontend to the backend.
+
     -  The backend create a map that maps the room_id to web socket hook that fires the request (i.e. this socket).
 
+
 When user joins a room:
+
     - The `JOIN room_id` message is fired from frontend to the backend.
+
     - The backend finds the web socket hook mapped to room_id and create a new mapping that maps the web socket found to this socket.
+
     - Now connection between two clients are established.
 
+
 When user makes a move in the game:
+
     - The `UPDATE snake <json>` message is fired from the frontend to the backend
+
     - Message received by the backend is then forwarded the opponent's frontend
+
     - The serialized json is decoded on opponent frontend and `other` is updated to the received data.
 
+
 When user eats a food in the game:
+
     - The `UPDATE food <json>` message is fired from the frontend to the backend
+
     - Message received by the backend is then forwarded the opponent's frontend
+
     - The serialized json is decoded on opponent frontend and `food` is updated to the received data.
 
 
