@@ -46,6 +46,17 @@ MVC Pattern is employed on the frontend.
    scene is in place for user who created the room to wait for opponent to join the room. The Game 
    scene contains all necessary game data. End Scene is the scene to be displayed when game is over.
    The Game object's scene is reset each time the scene changes.
+
+
+##### Start Scene
+
+   ![start scene](./start.png)
+
+##### Game Scene
+   ![game scene](./game.png)
+
+##### End Scene
+   ![end scene](./end.png)
    
 
 #### View
