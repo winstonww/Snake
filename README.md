@@ -49,14 +49,13 @@ MVC Pattern is employed on the frontend.
 
 
 ##### Start Scene
-
-   ![start scene](./start.png =200x)
+<img src="start.png" alt="drawing" width="200"/>
 
 ##### Game Scene
-   ![game scene](./game.png =200x)
+<img src="game.png" alt="drawing" width="200"/>
 
 ##### End Scene
-   ![end scene](./end.png =200x)
+<img src="end.png" alt="drawing" width="200"/>
    
 
 #### View
