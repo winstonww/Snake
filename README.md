@@ -49,13 +49,19 @@ MVC Pattern is employed on the frontend.
 
 
 ##### Start Scene
-<img src="start.png" alt="drawing" width="200"/>
+<p align="center">
+<img src="start.png" alt="drawing" width="350"/>
+</p>
 
 ##### Game Scene
-<img src="game.png" alt="drawing" width="200"/>
+<p align="center">
+<img src="game.png" alt="drawing" width="350"/>
+</p>
 
 ##### End Scene
-<img src="end.png" alt="drawing" width="200"/>
+<p align="center">
+<img src="end.png" alt="drawing" width="350"/>
+</p>
    
 
 #### View
